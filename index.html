@@ -23,6 +23,14 @@
 
         // Append grid container to the body
         document.body.appendChild(gridContainer);
+
+          // Add mouseover event listener to change background color on hover
+    gridContainer.addEventListener('mouseover', function (event) {
+        if (event.target.classList.contains('square')) {
+            event.target.style.backgroundColor = 'yellow';
+        }
+    });
+
     </script>
 </body>
 </html>

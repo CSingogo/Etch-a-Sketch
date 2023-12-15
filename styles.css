@@ -4,6 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-color: gray;
 }
 
 .grid-container {
@@ -18,3 +19,4 @@ body {
     background-color: lightblue;
     border: 1px solid #333;
 }
+
